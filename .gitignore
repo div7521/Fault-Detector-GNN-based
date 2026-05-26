@@ -1,0 +1,28 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+
+# Data — never commit raw data
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# Models — too large for git
+models/saved/
+*.pt
+*.pth
+
+# Kaggle credentials
+kaggle.json
+~/.kaggle/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/settings.json
+.idea/
